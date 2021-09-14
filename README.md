@@ -13,3 +13,13 @@ database.
 4. Use current database technology to implement a database. You will specifically use
 Postgres, but you should be able to transition to other relational database management
 systems.
+
+## Course Prerequisites:
+- Data Structures
+- Discrete Math
+
+## Textbook: 
+Elmasri and Navathe, Fundamentals of Database Systems, 7th ed
+
+## Software:
+[Postgresql](https://www.postgresql.org/)
