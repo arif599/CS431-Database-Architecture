@@ -26,6 +26,6 @@ DELETE FROM dept_locations
 WHERE dept_locations.dlocation = 'Houston' AND dept_locations.dnum = 5; -- deleting the Houston location of the department 5
 
 -- 2c. Add a column startDate to Employee to indicate when they started – this should not be null. You need to modify existing records to allow you to prevent null values in the column
-ALTER TABLE Employee ADD startDate DATE NOT NULL DEFAULT current_date;
+ALTER TABLE Employee ADD startDate DATE NOT NULL DEFAULT current_date; -- current date represents when the employee started
 
 
